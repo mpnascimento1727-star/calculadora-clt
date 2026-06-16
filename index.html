@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calculadora CLT 2026</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Calculadora CLT</h1>
+
+<div class="card">
+
+<label>Salário Bruto</label>
+
+<input
+type="number"
+id="salario"
+placeholder="Digite seu salário bruto"
+>
+
+<button onclick="calcular()">
+Calcular
+</button>
+
+</div>
+
+<div class="resultado">
+
+<p>INSS: <span id="inss">R$ 0,00</span></p>
+
+<p>IRRF: <span id="irrf">R$ 0,00</span></p>
+
+<p>FGTS: <span id="fgts">R$ 0,00</span></p>
+
+<p>Salário Líquido: <span id="liquido">R$ 0,00</span></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
