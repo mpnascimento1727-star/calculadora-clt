@@ -1,0 +1,488 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#1f2937;
+}
+
+/* HEADER */
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px 40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo i{
+    font-size:40px;
+    color:#22c55e;
+}
+
+.logo h1{
+    font-size:24px;
+}
+
+.logo span{
+    font-size:14px;
+    opacity:.8;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#22c55e;
+}
+
+/* CONTAINER */
+
+.container{
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+/* CARDS */
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin-bottom:20px;
+}
+
+/* FORM */
+
+.campo{
+    margin-bottom:20px;
+}
+
+.campo label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.campo input,
+.campo select{
+    width:100%;
+    padding:12px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:15px;
+}
+
+button{
+    width:100%;
+    border:none;
+    background:#22c55e;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#16a34a;
+}
+
+/* RESULTADO */
+
+.salarioLiquido{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.salarioLiquido p{
+    color:#6b7280;
+}
+
+.salarioLiquido h1{
+    color:#22c55e;
+    font-size:40px;
+    margin-top:10px;
+}
+
+.detalhes{
+    margin-top:20px;
+}
+
+.linha{
+    display:flex;
+    justify-content:space-between;
+    margin:12px 0;
+}
+
+.total{
+    font-size:18px;
+    font-weight:bold;
+    color:#22c55e;
+}
+
+hr{
+    margin:15px 0;
+}
+
+/* AÇÕES */
+
+.acoes{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+}
+
+.acoes button{
+    flex:1;
+}
+
+/* FAQ */
+
+.informacoes{
+    grid-column:span 2;
+}
+
+details{
+    border:1px solid #e5e7eb;
+    border-radius:10px;
+    margin-bottom:10px;
+    padding:15px;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+details p{
+    margin-top:10px;
+    color:#6b7280;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0f172a;
+    color:white;
+
+    margin-top:50px;
+    padding:30px;
+
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+footer div{
+    text-align:center;
+}
+
+footer h3{
+    margin-bottom:10px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:900px){
+
+    .container{
+        grid-template-columns:1fr;
+    }
+
+    .informacoes{
+        grid-column:span 1;
+    }
+
+    header{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    nav{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+}
+
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#1f2937;
+}
+
+/* HEADER */
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:20px 40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo i{
+    font-size:40px;
+    color:#22c55e;
+}
+
+.logo h1{
+    font-size:24px;
+}
+
+.logo span{
+    font-size:14px;
+    opacity:.8;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#22c55e;
+}
+
+/* CONTAINER */
+
+.container{
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+/* CARDS */
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin-bottom:20px;
+}
+
+/* FORM */
+
+.campo{
+    margin-bottom:20px;
+}
+
+.campo label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.campo input,
+.campo select{
+    width:100%;
+    padding:12px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:15px;
+}
+
+button{
+    width:100%;
+    border:none;
+    background:#22c55e;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#16a34a;
+}
+
+/* RESULTADO */
+
+.salarioLiquido{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.salarioLiquido p{
+    color:#6b7280;
+}
+
+.salarioLiquido h1{
+    color:#22c55e;
+    font-size:40px;
+    margin-top:10px;
+}
+
+.detalhes{
+    margin-top:20px;
+}
+
+.linha{
+    display:flex;
+    justify-content:space-between;
+    margin:12px 0;
+}
+
+.total{
+    font-size:18px;
+    font-weight:bold;
+    color:#22c55e;
+}
+
+hr{
+    margin:15px 0;
+}
+
+/* AÇÕES */
+
+.acoes{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+}
+
+.acoes button{
+    flex:1;
+}
+
+/* FAQ */
+
+.informacoes{
+    grid-column:span 2;
+}
+
+details{
+    border:1px solid #e5e7eb;
+    border-radius:10px;
+    margin-bottom:10px;
+    padding:15px;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+details p{
+    margin-top:10px;
+    color:#6b7280;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0f172a;
+    color:white;
+
+    margin-top:50px;
+    padding:30px;
+
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+footer div{
+    text-align:center;
+}
+
+footer h3{
+    margin-bottom:10px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:900px){
+
+    .container{
+        grid-template-columns:1fr;
+    }
+
+    .informacoes{
+        grid-column:span 1;
+    }
+
+    header{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    nav{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+}
