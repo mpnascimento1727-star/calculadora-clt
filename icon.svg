@@ -1,0 +1,26 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+
+<!-- fundo -->
+<rect width="192" height="192" rx="30" fill="#0f172a"/>
+
+<!-- calculadora -->
+<rect x="48" y="40" width="96" height="112" rx="12" fill="#1e293b"/>
+
+<!-- tela -->
+<rect x="58" y="50" width="76" height="24" rx="6" fill="#22c55e"/>
+
+<!-- botões -->
+<circle cx="70" cy="95" r="8" fill="white"/>
+<circle cx="96" cy="95" r="8" fill="white"/>
+<circle cx="122" cy="95" r="8" fill="white"/>
+
+<circle cx="70" cy="120" r="8" fill="white"/>
+<circle cx="96" cy="120" r="8" fill="white"/>
+<circle cx="122" cy="120" r="8" fill="white"/>
+
+<!-- texto CLT -->
+<text x="96" y="170" font-size="18" fill="white" text-anchor="middle" font-family="Arial">
+CLT PRO
+</text>
+
+</svg>

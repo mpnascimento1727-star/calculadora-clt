@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calculadora CLT 2026 | Salário Líquido, INSS e IRRF</title>
+
+<meta name="description" content="Calcule salário líquido CLT com INSS, IRRF, FGTS, férias e 13º salário de forma rápida e gratuita.">
+
+<meta name="keywords" content="calculadora clt, salario liquido, inss, irrf, fgts, ferias, decimo terceiro">
+
+<meta name="author" content="CLT Pro">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Calculadora CLT 2026">
+<meta property="og:description" content="Calcule seu salário líquido CLT com precisão">
+<meta property="og:type" content="website">
+
+<!-- SEO canônico (troque depois pelo seu link do GitHub Pages) -->
+<link rel="canonical" href="SEU_LINK_AQUI">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Gráficos -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<header>
+<h1>CLT Pro</h1>
+<p>Calculadora profissional de salário CLT</p>
+</header>
+
+<!-- MENU (ABAS) -->
+<nav class="tabs">
+<button onclick="mostrar('salario')">Salário</button>
+<button onclick="mostrar('beneficios')">Benefícios</button>
+<button onclick="mostrar('rescisao')">Rescisão</button>
+</nav>
+
+<main class="container">
+
+<!-- SALÁRIO -->
+<section id="salario" class="card tab ativo">
+
+<h2>Calcular Salário</h2>
+
+<input type="number" id="inputSalario" placeholder="Digite seu salário bruto">
+
+<button onclick="calcular()">Calcular</button>
+
+<h3>Descontos</h3>
+<p>INSS: <span id="inss">-</span></p>
+<p>IRRF: <span id="irrf">-</span></p>
+<p>FGTS: <span id="fgts">-</span></p>
+
+<h3>Salário Líquido</h3>
+<p><strong id="liquido">-</strong></p>
+
+<h3>Gráfico</h3>
+<canvas id="grafico"></canvas>
+
+</section>
+
+<!-- BENEFÍCIOS -->
+<section id="beneficios" class="card tab">
+
+<h2>Benefícios</h2>
+
+<p>Férias + 1/3: <span id="ferias">-</span></p>
+<p>13º Salário: <span id="decimo">-</span></p>
+
+</section>
+
+<!-- RESCISÃO -->
+<section id="rescisao" class="card tab">
+
+<h2>Rescisão CLT</h2>
+
+<p>Multa FGTS (40%): <span id="multa">-</span></p>
+
+</section>
+
+</main>
+
+<!-- RODAPÉ (ADSENSE + PÁGINAS) -->
+<footer style="text-align:center; padding:20px;">
+
+<!-- Espaço para anúncios -->
+<div style="margin:20px;">
+<p>Espaço para anúncio (AdSense)</p>
+</div>
+
+<a href="sobre.html" style="color:white;">Sobre</a> |
+<a href="privacidade.html" style="color:white;">Privacidade</a>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
